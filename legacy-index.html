@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Porter Sampson-Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="minecraft.html">Minecraft</a></li>
+            <li><a href="writing.html">Writing</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home-grid" class="grid-container">
+            <aside id="home-sidebar" class="sidebar">
+                <div class="image">
+                    <img id="pfp" src="css/assets/img/me.png">
+                </div>
+            <h3>Porter Sampson</h3><br>
+                <div id="about" class="textbox">
+                    <button class="toggle-div" onclick="toggleClass('aboutme-ext', 'inline')"><h4>About me</h4></button>
+                    <div id="aboutme-ext">
+                        <p>I'm a computer science student at UVU with a builder's mindset and a systems-oriented approach to problem-solving.</p> 
+                        <p>I see programming not just as a technical skill but as a form of thinking—structured, iterative, and deeply ethical.</p> 
+                        <p>I’m drawn to projects that ask more than just how something works, but why.</p>
+                    </div>
+                </div>
+                <div id="contact" class="textbox">
+                <button class="toggle-div" onclick="toggleClass('contact-ext', 'inline')"><h4>Contact</h4></button>
+                    <div id="contact-ext">
+                        <p>portersampson@proton.me</p>
+                        <a href="https://github.com/youngcantaloupe">Github</a>
+                        <a href="https://www.linkedin.com/in/porter-sampson-93309a1a4/">Linkedin</a>
+                        <a href="https://www.instagram.com/porter.sampson/">Instagram</a>
+                    </div>
+                </div>
+            </aside>
+
+            <h3>Highlights</h3>
+            <div class="home-top-container">
+                <article id="minecraft" class="textbox">
+                <a href="minecraft.html">
+                    <h4>Minecraft - World 5</h4>
+                </a>
+                    <p>Checkout some screenshots from my current Minecraft world.</p>
+                    <p><br><small>2025</small></p>
+                </article>
+                <article id="writing" class="textbox">
+                    <a href="writing.html">
+                    <h4>Writing - You're gunna carry that weight</h4>
+                    </a>
+                    <p>A short reflection on fire, faith, and forging a blade of wisdom.</p>
+                    <p><br><small>2025</small></p>
+                </article>
+            </div>
+            <div class="home-bot-container">
+            <h3>More!</h3>
+                <article id="linux" class="textbox">
+
+                    <button class="toggle-div" onclick="toggleClass('linux-ext', 'inline')"><h4>Linux</h4></button>
+
+                    <p>I work in a ever evolving minimally riced Linux environment built on Ubuntu.</p>
+                    <div id="linux-ext">
+                        <p>
+                            <br>Specs:
+                            <br>OS: Ubuntu 24.04.2 LTS x86_64
+                            <br>WM: i3
+                            <br>Terminal: kitty (w/ tmux)
+                            <br>Shell: zsh 5.9
+                            <br>CPU: 12th Gen Intel i7-12700k @ 4.900GHz
+                            <br>GPU: NVIDIA GeForce RTX 3060
+                            <br>Memory: 31869MiB
+                        </p>
+                        <p><small><a href="https://github.com/youngcantaloupe/.dotfiles">Dots here!</a></small></p>
+                    </div>
+                </article>
+                <article id="bash" class="textbox">
+                   <a href="https://github.com/youngcantaloupe/bashscripts/tree/master"><h4>Bash Scripts</h4></a>
+                    <p>A collection of many helpful, and many not so helpful scripts.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script src="/js/main.js"></script>
+</body>
+</html>

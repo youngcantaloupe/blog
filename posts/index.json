@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "youre-gunna-carry-that-weight",
+    "title": "You’re gunna carry that weight",
+    "date": "2025-03-30",
+    "category": "Reflection",
+    "summary": "On fire, faith, and forging a blade of wisdom.",
+    "file": "posts/youre-gunna-carry-that-weight.md"
+  },
+  {
+    "slug": "american-political-structure",
+    "title": "Establishing and Interpreting the American Political Structure",
+    "date": "2024-10-09",
+    "category": "Civics",
+    "summary": "An essay on American government and its foundations.",
+    "file": "posts/american-political-structure.md"
+  },
+  {
+    "slug": "the-nature-of-taoism",
+    "title": "The Nature of Taoism",
+    "date": "2023-12-14",
+    "category": "Philosophy",
+    "summary": "Nature, harmony, and Daoist philosophy.",
+    "file": "posts/the-nature-of-taoism.md"
+  }
+]
